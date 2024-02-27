@@ -98,7 +98,7 @@ export default function App() {
       </div>
       {selectedCity && (
         <p className="text-line">
-          You Selected <span className="highlite">{selectedCity}</span>,{" "}
+          You selected <span className="highlite">{selectedCity}</span>,{" "}
           <span className="fade">
             {selectedState}, {selectedCountry}
           </span>
